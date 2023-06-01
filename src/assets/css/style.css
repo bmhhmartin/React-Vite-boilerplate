@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+a {
+    outline: none;
+}
+
+img {
+    border: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+address {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+:root{
+    --primary-color: #18d1ff;
+    --white-color: #ffffff;
+}
+
+
+.NavBar{
+    background: var(--primary-color);
+}
+
+.NavBar .navbar-nav a{
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+footer{
+    background: #2b2b2b;
+    color: var(--white-color);
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
